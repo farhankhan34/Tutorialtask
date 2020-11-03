@@ -1,0 +1,38 @@
+* {
+  font-family: system-ui, sans-serif;
+}
+
+
+/* CHALLENGE 1 - Button Hover */
+.styledbutton {
+    border-width: 2px;
+    border-style: solid;
+    border-color:#073B4C;
+    padding: 20px 60px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color:#073B4C;
+    transition: background-color 0.5s ease-out;
+    
+}
+
+.styledbutton:hover {
+    background-color:#118AB2;
+    color:white;
+    cursor: pointer;
+}
+
+/* CHALLENGE 2 - Oscillating Rectangles */
+
+.bar {
+  width: 200px;
+  height: 60px;
+  background-color: #444444;
+  margin: 60px;
+
+}
+
+
+
+/* CHALLENGE 3 - Circle Wave */
